@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Login } from "./components/Login";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { BuyerView } from "./components/BuyerView";
