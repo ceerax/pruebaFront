@@ -1,8 +1,215 @@
 {
     "products": [
-      { "pId":"xyz987", "name":"Empanada" },
-      { "pId":"jkl567", "name":"Gaseosa" }
+        {
+            "pId": "xyz001",
+            "name": "Empanada",
+            "price": 10,
+            "imageUrl": "http://example.com/images/empanada.jpg"
+        },
+        {
+            "pId": "xyz002",
+            "name": "Gaseosa",
+            "price": 5,
+            "imageUrl": "http://example.com/images/gaseosa.jpg"
+        },
+        {
+            "pId": "xyz003",
+            "name": "Pizza",
+            "price": 15,
+            "imageUrl": "http://example.com/images/pizza.jpg"
+        },
+        {
+            "pId": "xyz004",
+            "name": "Ensalada",
+            "price": 8,
+            "imageUrl": "http://example.com/images/ensalada.jpg"
+        },
+        {
+            "pId": "xyz005",
+            "name": "Hamburguesa",
+            "price": 12,
+            "imageUrl": "http://example.com/images/hamburguesa.jpg"
+        },
+        {
+            "pId": "xyz006",
+            "name": "Sándwich",
+            "price": 10,
+            "imageUrl": "http://example.com/images/sandwich.jpg"
+        },
+        {
+            "pId": "xyz007",
+            "name": "Helado",
+            "price": 6,
+            "imageUrl": "http://example.com/images/helado.jpg"
+        },
+        {
+            "pId": "xyz008",
+            "name": "Café",
+            "price": 4,
+            "imageUrl": "http://example.com/images/cafe.jpg"
+        },
+        {
+            "pId": "xyz009",
+            "name": "Té",
+            "price": 3,
+            "imageUrl": "http://example.com/images/te.jpg"
+        },
+        {
+            "pId": "xyz010",
+            "name": "Agua",
+            "price": 2,
+            "imageUrl": "http://example.com/images/agua.jpg"
+        },
+        {
+            "pId": "xyz011",
+            "name": "Jugo",
+            "price": 5,
+            "imageUrl": "http://example.com/images/jugo.jpg"
+        },
+        {
+            "pId": "xyz012",
+            "name": "Papas Fritas",
+            "price": 7,
+            "imageUrl": "http://example.com/images/papas.jpg"
+        },
+        {
+            "pId": "xyz013",
+            "name": "Fruta",
+            "price": 3,
+            "imageUrl": "http://example.com/images/fruta.jpg"
+        },
+        {
+            "pId": "xyz014",
+            "name": "Cerveza",
+            "price": 6,
+            "imageUrl": "http://example.com/images/cerveza.jpg"
+        },
+        {
+            "pId": "xyz015",
+            "name": "Vino",
+            "price": 10,
+            "imageUrl": "http://example.com/images/vino.jpg"
+        },
+        {
+            "pId": "xyz016",
+            "name": "Champán",
+            "price": 20,
+            "imageUrl": "http://example.com/images/champan.jpg"
+        },
+        {
+            "pId": "xyz017",
+            "name": "Queso",
+            "price": 8,
+            "imageUrl": "http://example.com/images/queso.jpg"
+        },
+        {
+            "pId": "xyz018",
+            "name": "Chips",
+            "price": 5,
+            "imageUrl": "http://example.com/images/chips.jpg"
+        },
+        {
+            "pId": "xyz019",
+            "name": "Chocolate",
+            "price": 4,
+            "imageUrl": "http://example.com/images/chocolate.jpg"
+        },
+        {
+            "pId": "xyz020",
+            "name": "Cupcake",
+            "price": 6,
+            "imageUrl": "http://example.com/images/cupcake.jpg"
+        },
+        {
+            "pId": "xyz021",
+            "name": "Donut",
+            "price": 4,
+            "imageUrl": "http://example.com/images/donut.jpg"
+        },
+        {
+            "pId": "xyz022",
+            "name": "Muffin",
+            "price": 5,
+            "imageUrl": "http://example.com/images/muffin.jpg"
+        },
+        {
+            "pId": "xyz023",
+            "name": "Pan",
+            "price": 3,
+            "imageUrl": "http://example.com/images/pan.jpg"
+        },
+        {
+            "pId": "xyz024",
+            "name": "Croissant",
+            "price": 3,
+            "imageUrl": "http://example.com/images/croissant.jpg"
+        },
+        {
+            "pId": "xyz025",
+            "name": "Pasta",
+            "price": 12,
+            "imageUrl": "http://example.com/images/pasta.jpg"
+        },
+        {
+            "pId": "xyz026",
+            "name": "Arroz",
+            "price": 10,
+            "imageUrl": "http://example.com/images/arroz.jpg"
+        },
+        {
+            "pId": "xyz027",
+            "name": "Tacos",
+            "price": 10,
+            "imageUrl": "http://example.com/images/tacos.jpg"
+        },
+        {
+            "pId": "xyz028",
+            "name": "Burrito",
+            "price": 10,
+            "imageUrl": "http://example.com/images/burrito.jpg"
+        },
+        {
+            "pId": "xyz029",
+            "name": "Nachos",
+            "price": 8,
+            "imageUrl": "http://example.com/images/nachos.jpg"
+        },
+        {
+            "pId": "xyz030",
+            "name": "Tarta",
+            "price": 6,
+            "imageUrl": "http://example.com/images/tarta.jpg"
+        },
+        {
+            "pId": "xyz031",
+            "name": "Sopa",
+            "price": 8,
+            "imageUrl": "http://example.com/images/sopa.jpg"
+        },
+        {
+            "pId": "xyz032",
+            "name": "Cereal",
+            "price": 5,
+            "imageUrl": "http://example.com/images/cereal.jpg"
+        },
+        {
+            "pId": "xyz033",
+            "name": "Yogur",
+            "price": 4,
+            "imageUrl": "http://example.com/images/yogur.jpg"
+        },
+        {
+            "pId": "xyz034",
+            "name": "Perrito Caliente",
+            "price": 7,
+            "imageUrl": "http://example.com/images/perritocaliente.jpg"
+        },
+        {
+            "pId": "xyz035",
+            "name": "Pollo Asado",
+            "price": 15,
+            "imageUrl": "http://example.com/images/polloasado.jpg"
+        }
     ],
     "checkout": []
-  }
-  
+}
