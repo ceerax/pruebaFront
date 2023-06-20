@@ -4,13 +4,15 @@
             "pId": "xyz001",
             "name": "Empanada",
             "price": 10,
-            "imageUrl": "http://example.com/images/empanada.jpg"
+            "imageUrl": "http://example.com/images/empanada.jpg",
+            "description": "Descripción del producto "
         },
         {
             "pId": "xyz002",
             "name": "Gaseosa",
             "price": 5,
-            "imageUrl": "http://example.com/images/gaseosa.jpg"
+            "imageUrl": "http://example.com/images/gaseosa.jpg",
+            "description": "Descripción del producto "
         },
         {
             "pId": "xyz003",
