@@ -9,6 +9,12 @@ en otra consola ejecutar
 
 npm run server
 
+# usuarios de prueba
+
+- USUARIO : vendedor CONTRASEÑA :12345
+
+- USUARIO : comprador CONTRASEÑA :123
+
 # la comunicación de back-end estará asegurada, ¿cómo lo maneja?
 
 Para asegurar la comunicación entre el front-end y el back-end, se utiliza HTTPS para encriptar la comunicación, y se emplean tokens de autenticación (como JWT) para validar la identidad del usuario en cada solicitud. Además, se implementan políticas de CORS y protecciones contra ataques comunes como CSRF y XSS.
