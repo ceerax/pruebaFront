@@ -23,10 +23,21 @@ export const Login = () => {
         <div className="col-12 col-md-6">
           <div className="card">
             <div className="card-body">
-              <h1 className="text-center mb-4">OMC Central</h1>
-              <p className="text-center">@central.com</p>
-              <p className="text-center">onewp.okta.com</p>
-              <hr />
+              <h5 className="text-center m-0">OMC Central</h5>
+              <p className="text-center m-0">
+                <u>@central.com</u>
+              </p>
+              <p className="text-center m-0">onewp.okta.com</p>
+
+              <div className="row d-flex justify-content-between mt-5">
+                <div className="col-4 p-0">
+                  <hr />
+                </div>
+                <div className="col-4 p-0">
+                  <hr />
+                </div>
+              </div>
+
               <h3 className="text-center mb-4">Sign In</h3>
 
               <form onSubmit={handleLogin}>
@@ -69,7 +80,7 @@ export const Login = () => {
                 </button>
               </form>
 
-              <p className="text-center mt-3">
+              <p className=" mt-3">
                 <a href="#">Need help signing in?</a>
               </p>
             </div>
