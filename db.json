@@ -1,0 +1,8 @@
+{
+    "products": [
+      { "pId":"xyz987", "name":"Empanada" },
+      { "pId":"jkl567", "name":"Gaseosa" }
+    ],
+    "checkout": []
+  }
+  
