@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# inicializar proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+npm install
+npm start
 
-## Available Scripts
+# inicializar Base de datos local
 
-In the project directory, you can run:
+en otra consola ejecutar
 
-### `npm start`
+npm run server
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# la comunicación de back-end estará asegurada, ¿cómo lo maneja?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para asegurar la comunicación entre el front-end y el back-end, se utiliza HTTPS para encriptar la comunicación, y se emplean tokens de autenticación (como JWT) para validar la identidad del usuario en cada solicitud. Además, se implementan políticas de CORS y protecciones contra ataques comunes como CSRF y XSS.
 
-### `npm test`
+# Qué stack tecnológico eliges? explicar con algunos detalles?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El stack tecnológico que elegi para desarrollar esta aplicación se basa en JavaScript, principalmente utilizando la librería React para el front-end y Node.js para el back-end. Aquí están algunos detalles:
 
-### `npm run build`
+    React.js: Es una librería de JavaScript para la construcción de interfaces de usuario de manera declarativa. Nos permite dividir la interfaz de usuario en componentes independientes y reutilizables. Además, con la ayuda de la arquitectura de un solo sentido de flujo de datos y el estado virtual del DOM, proporciona un rendimiento eficiente y hace que la aplicación sea altamente interactiva.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Node.js: Es un entorno de ejecución de JavaScript que nos permite ejecutar código JavaScript en el servidor. Se utiliza para crear la lógica de back-end de la aplicación, manejar las solicitudes y respuestas HTTP, conectar con la base de datos y más.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Express.js: Es un marco de aplicación web para Node.js, diseñado para construir aplicaciones web y APIs. Es minimalista, flexible y proporciona un conjunto robusto de características para las aplicaciones web y móviles.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    MongoDB: Es una base de datos NoSQL orientada a documentos. En lugar de almacenar los datos en tablas como se hace en las bases de datos relacionales, MongoDB almacena los datos en estructuras tipo BSON (una representación binaria de JSON) con un esquema dinámico, lo que lo hace muy flexible y escalable.
 
-### `npm run eject`
+    Mongoose.js: Es una biblioteca de JavaScript que proporciona una solución de modelado de objetos para MongoDB. Esto nos ayuda a definir objetos con un conjunto fuertemente tipado de atributos que se pueden validar automáticamente antes de guardarlos en MongoDB.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Axios: Es una biblioteca de JavaScript que utilizamos para hacer solicitudes HTTP desde el navegador al servidor. Tiene una API muy sencilla y soporta el estándar Promise API.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Bootstrap: Es un marco de diseño de CSS que nos ayuda a diseñar rápidamente la interfaz de usuario de la aplicación. Proporciona una serie de estilos y componentes predefinidos que son responsivos y se ven bien en diferentes tamaños de pantalla.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este stack es conocido como el stack MERN (MongoDB, Express.js, React.js, Node.js), que es ampliamente utilizado para el desarrollo de aplicaciones web de JavaScript de pila completa.
