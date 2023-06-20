@@ -1,7 +1,7 @@
 # inicializar proyecto
 
-npm install
-npm start
+- npm install
+- npm start
 
 # inicializar Base de datos local
 
